@@ -8,7 +8,7 @@ from sklearn.metrics import mean_absolute_error as MSE
 from sklearn.preprocessing import binarize
 
 #%matplotlib inline
-tops = pd.read_csv(r"jonah_tops.csv")  # read in the top data
+tops = pd.read_csv(r"clean_teapot.csv")  # read in the top data
 
 ssmin = tops.SS.min()
 tops.SS = tops.SS - ssmin  # standardize the subsea values
@@ -97,37 +97,38 @@ def runALS(A, R, n_factors, n_iterations, lambda_):
 
 
 MAE_iter = []
-for iterations in range(1, 20):
+for iterations in range(20, 100, 5):
     print(f"Starting for {iterations} iterations")
-    for factors in range(20):
-        print(f"Starting for {factors} factors")
-        U, Vt = runALS(R, A, factors, iterations, 0.1)
+    MAE = []
 
-        recommendations = np.dot(U, Vt)  # get the recommendations
-        recsys = pd.DataFrame(
-            data=recommendations[0:, 0:], index=D_df.index, columns=D_df.columns
-        )  # results
-        newDF = recsys.T
-        newDF.reset_index(inplace=True)
-        # test = newDF[["FORT UNION", "API"]]
-        flat_preds = pd.DataFrame(recsys.unstack()).reset_index()
-        new_df = pd.merge(
-            test,
-            flat_preds,
-            how="left",
-            left_on=["API", "Formation"],
-            right_on=["API", "Formation"],
-        )
-        new_df.rename(columns={0: "SS_pred"}, inplace=True)
-        cleanDF = new_df.dropna()
-        cleanDF["signed_error"] = cleanDF["SS"] - cleanDF["SS_pred"]
-        mae = MSE(cleanDF.SS.values - ssmin, cleanDF.SS_pred.values - ssmin)
-        MAE.append(mae)
-        print(f"Mean Absolute Error is {mae}")
+    #print(f"Starting for 3 factors")
+    U, Vt = runALS(R, A, 3, iterations, 0.1)
+
+    recommendations = np.dot(U, Vt)  # get the recommendations
+    recsys = pd.DataFrame(
+        data=recommendations[0:, 0:], index=D_df.index, columns=D_df.columns
+    )  # results
+    newDF = recsys.T
+    newDF.reset_index(inplace=True)
+    # test = newDF[["FORT UNION", "API"]]
+    flat_preds = pd.DataFrame(recsys.unstack()).reset_index()
+    new_df = pd.merge(
+        test,
+        flat_preds,
+        how="left",
+        left_on=["API", "Formation"],
+        right_on=["API", "Formation"],
+    )
+    new_df.rename(columns={0: "SS_pred"}, inplace=True)
+    cleanDF = new_df.dropna()
+    cleanDF["signed_error"] = cleanDF["SS"] - cleanDF["SS_pred"]
+    mae = MSE(cleanDF.SS.values - ssmin, cleanDF.SS_pred.values - ssmin)
+    MAE.append(mae)
+    print(f"Mean Absolute Error is {mae}")
     MAE_iter.append(MAE)
 
-    plt.plot(range(20), MAE)
-    plt.xlabel("No of factors")
-    plt.ylabel("Mean Absolute Error")
-    plt.show()
+    #plt.plot(range(20), MAE)
+    #plt.xlabel("No of factors")
+    #plt.ylabel("Mean Absolute Error")
+    #plt.show()
 print(MAE_iter)
