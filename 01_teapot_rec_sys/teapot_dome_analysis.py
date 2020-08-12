@@ -252,6 +252,7 @@ def cross_validation_wells(dataframe, random_seed, latent_vectors, n_iters, reg)
     :param reg: Lamda regularization value
     :return: dataframe with error for each wells predictions
     """
+    cv_wells = []
     block_1 = dataframe.sample(
         n=dataframe.shape[0] // 4, random_state=random_seed
     ).index.values
@@ -384,7 +385,7 @@ for L in range(1, 11):
     for n_it in range(10, 450, 10):
         for reg in [0.001, 0.01, 0.1, 1, 10]:
             grid_search[L, n_it, reg] = np.mean(
-                cross_validation(tops, 86, L, n_it, reg)
+                cross_validation_error(tops, 86, L, n_it, reg)[0]
             )
             els.append(L)
             nsits.append(n_it)
@@ -725,6 +726,5 @@ for i in range(len(big_de_error)):
 
 # # Error by well
 
-cv_wells = []
 masterDF = pd.concat(cross_validation_wells(tops, 86, 2, 290, 0.1))
 # masterDF.to_csv('error_map.csv')
