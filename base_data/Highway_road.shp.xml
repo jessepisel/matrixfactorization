@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>US Census TIGER files</origin>
+				<pubdate>199711</pubdate>
+				<title Sync="TRUE">Road</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Laramie, WY</pubplace>
+					<publish>Spatial Data and Visualization Center</publish>
+				</pubinfo>
+				<onlink Sync="TRUE">\\BAROSAURUS\Departments\GIS\Base_Map_2010\Base_Map_2010.gdb</onlink>
+				<lworkcit>
+					<citeinfo>
+						<origin>U.S. Department of Commerce</origin>
+						<origin>Bureau of the Census</origin>
+						<origin>Geography Division</origin>
+						<pubdate>1995</pubdate>
+						<pubtime>Unknown</pubtime>
+						<title>TIGER/Line Files, 1995</title>
+						<edition>1995</edition>
+						<serinfo>
+							<sername>TIGER/Line Census Files</sername>
+							<issue>Version (0024)</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Washington, DC</pubplace>
+							<publish>U.S. Department of Commerce, Bureau of the Census,</publish>
+						</pubinfo>
+					</citeinfo>
+				</lworkcit>
+				<ftname Sync="TRUE">Road</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>
+Transportation for Wyoming, including interstates, state and county highways,
+neighborhood and connecting roads, jeep trails, and other road and trail types,
+developed by the US Census at 1:100,000-scale. The Wyoming Water Resources
+Lab has tiled this information together by 1:100,000 quadrangles for Wyoming
+and created an attribute table which contains a description of the primary
+road/trail attribute, CFCC.
+
+A subset of this dataset is also available, including only federal and state
+highways for simplified display purposes. In order to reduce the size of
+this subset, the line segments were dissolved to remove unecessary segments.
+
+The data is available (both statewide and tiles) in ARC/INFO export file
+format and in ArcView shapefile format.
+</abstract>
+			<purpose>To provide a base transportation network for GIS display and analysis.</purpose>
+			<supplinf>To find out more about TIGER/Line files and other Census TIGER data base derived data sets visit http://www.census.gov/geo/www/tiger.</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>19950830</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Irregular</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-111.924987</westbc>
+				<eastbc Sync="TRUE">-103.595605</eastbc>
+				<northbc Sync="TRUE">45.600202</northbc>
+				<southbc Sync="TRUE">40.337872</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-1178762.291000</leftbc><rightbc Sync="TRUE">-599034.217900</rightbc><bottombc Sync="TRUE">135780.320200</bottombc><topbc Sync="TRUE">612904.044200</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Road</themekey>
+				<themekey>TIGER</themekey>
+				<themekey>Transportation</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Wyoming</placekey>
+			</place>
+		</keywords>
+		<accconst>None.</accconst>
+		<useconst>Should not be used at scales greater than 1:100,000.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Data Manager</cntper>
+					<cntorg>Spatial Data and Visualization Center</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>Box 4008 University Station</address>
+					<city>Laramie</city>
+					<state>Wyoming</state>
+					<postal>82071</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>307-766-2751</cntvoice>
+				<cntemail>n/a</cntemail>
+				<hours>8:00 - 5:00 MST</hours>
+				<cnttdd>1 (800) 877-9975</cnttdd></cntinfo>
+		</ptcontac>
+		<datacred>U.S. Department of Commerce, Bureau of the Census</datacred>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+		<natvform Sync="TRUE">File Geodatabase Feature Class</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>See Chapter 5, Technical Documentation, 1995 TIGER/Line data from the U.S. Bureau of the Census. It is available online at http://www.census.gov/geo/www/tiger/tl95doc.html.</attraccr>
+		</attracc>
+		<logic>See Chapter 5, Technical Documentation, 1995 TIGER/Line data from the U.S. Bureau of the Census. It is available online at http://www.census.gov/geo/www/tiger/tl95doc.html.</logic>
+		<complete>See Chapter 5, Technical Documentation, 1995 TIGER/Line data from the U.S. Bureau of the Census. It is available online at http://www.census.gov/geo/www/tiger/tl95doc.html.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>See Chapter 5, Technical Documentation, 1995 TIGER/Line data from the U.S. Bureau of the Census. It is available online at http://www.census.gov/geo/www/tiger/tl95doc.html.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Department of Commerce</origin>
+						<origin>Bureau of the Census</origin>
+						<pubdate>1995</pubdate>
+						<title>TIGER/Line Files, 1995</title>
+						<edition>1995</edition>
+						<serinfo>
+							<sername>TIGER/Line Census Files</sername>
+							<issue>Version (0024)</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Washington, DC</pubplace>
+							<publish>U.S. Department of Commerce, Bureau of the Census</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>100000</srcscale>
+				<typesrc>unknown</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1995</caldate>
+							<time>unknown</time>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>TIGER/Line files</srccitea>
+				<srccontr>Original data set from U.S. Census Bureau.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>
+Converted TIGER/Line files to ARC/INFO format in decimal
+degrees, North American Datum 1983.
+</procdesc>
+				<procdate>Unknown</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Tiled road coverages into 1:100,000 quadrangles for Wyoming.</procdesc>
+				<procdate>Unknown</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>d:\temp\xml57B.tmp</srcused>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">d:\temp\xmlFD.tmp</srcused><date Sync="TRUE">20021104</date><time Sync="TRUE">09164500</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\WSGSNAS\Pubs\FinalizedPublications\NON_statemap\MS_51_52_53_54_55\MS_55\Data\MS_55_2007.mdb</srcused><date Sync="TRUE">20080814</date><time Sync="TRUE">13370400</time></procstep><procstep><procdesc Sync="TRUE">Dataset moved.</procdesc><srcused Sync="TRUE">V:\Uranium\Roads</srcused><procdate Sync="TRUE">20090825</procdate><proctime Sync="TRUE">13045000</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\WSGSNAS\Departments\Uranium\Base.gdb</srcused><procdate Sync="TRUE">20090831</procdate><proctime Sync="TRUE">10060700</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\WSGSNAS\Departments\Uranium\MS_94\Data\Uranium.gdb</srcused><procdate Sync="TRUE">20101101</procdate><proctime Sync="TRUE">11334800</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="Roads"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="3" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">1118</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">North_America_Lambert_Conformal_Conic</projcsn></cordsysn></horizsys>
+		<vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">0.000100</altres></altsys></vertdef></spref>
+	<eainfo>
+		<detailed Name="Roads">
+			<enttyp>
+				<enttypl Sync="TRUE">Roads</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">1118</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">OBJECTID_12</attrlabl><attalias Sync="TRUE">OBJECTID_12</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">OBJECTID_1</attrlabl><attalias Sync="TRUE">OBJECTID_1</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">LENGTH</attrlabl>
+				<attalias Sync="TRUE">LENGTH</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">HWYNAME</attrlabl>
+				<attalias Sync="TRUE">HWYNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">ALT1_NAME</attrlabl>
+				<attalias Sync="TRUE">ALT1_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">TYPE</attrlabl>
+				<attalias Sync="TRUE">TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">ROAD_NO</attrlabl>
+				<attalias Sync="TRUE">ROAD_NO</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Le_1</attrlabl><attalias Sync="TRUE">Shape_Le_1</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Length</attrlabl><attalias Sync="TRUE">Shape_Length</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Length of feature in internal units.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">On_Off</attrlabl><attalias Sync="TRUE">On_Off</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+		<overview>
+			<eaover>
+There are two items of interest in the arc attribute table.
+CFCC contains a detailed coding scheme for roads and trails. Explanation
+for these codes can be found in the accompanying INFO file, tigerroad.class
+(the same information is also in roadclass.dbf for ArcView users).
+The item ROADCLASS is a reclassification of the CFCC attributes into a less
+complex scheme with only 5 values: 10 (interstate), 20 (state highway), 30
+(connecting or county roads), 40 (neighborhood roads), and 50 (jeep trails).
+</eaover>
+			<eadetcit>none</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Data Manager</cntper>
+					<cntorg>Spatial Data and Visualization Center</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>Box 4008 University Station</address>
+					<city>Laramie</city>
+					<state>Wyoming</state>
+					<postal>82071</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>307-766-2751</cntvoice>
+				<cntemail>n/a</cntemail>
+				<cnttdd>1 (800) 877-9975</cnttdd></cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>
+The distributor shall not be held liable for improper or
+incorrect use of this data, based on the description of
+appropriate/inappropriate used described in this metadata
+document.
+It is strongly recommended that this data is directly acquired
+from the distributor described above and not indirectly
+through other sources which may have changed the data in some
+way.
+This data was developed and is meant to be used at the
+1:100,000-scale (or smaller scale) for the purpose of
+identifying roads/trails in Wyoming. The distributor
+makes no claims for the data's suitability for other purposes.
+</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ARCE (Arc/Info export)</formname>
+					<formvern>7.0.4</formvern>
+					<filedec>Export file was created using defaults, no compression</filedec>
+					<transize>82.296</transize>
+					<dssize Sync="TRUE">0.000</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>ftp.sdvc.uwyo.edu or http://www.sdvc.uwyo.edu/clearinghouse</networkr>
+							</networka>
+						</computer>
+						<accinstr>
+The data can be accessed online two different way:
+by anonymous ftp or by the world wide web.
+The anonymous ftp server is ftp.sdvc.uwyo.edu,
+and the data is stored in the /pub/gis directory.
+The WWW page is http://www.sdvc.uwyo.edu/clearinghouse.
+Instructions are provided on-line for downloading and
+importing the data.
+</accinstr>
+						<oncomp>
+Both the ftp and WWW server which this data is available
+from is a Silicon Graphics Challenge server, running
+the IRIX 6.2 UNIX operating system.
+</oncomp>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>
+No fees are required for downloading the data that is on-line.
+Some fees may be required to cover costs of tapes if data is
+required on tape media.
+</fees>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20101227</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Margo Herdendorf</cntper>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>Box 4008 University Station</address>
+					<city>Laramie</city>
+					<state>Wyoming</state>
+					<postal>82071</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>307-766-2751</cntvoice>
+				<cntemail>meh@uwyo.edu</cntemail>
+				<cnttdd>1 (800) 877-9975</cnttdd></cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta></metainfo>
+	<Esri><CreaDate>20180508</CreaDate><CreaTime>12215700</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20130315</SyncDate><SyncTime>15530400</SyncTime><ModDate>20130319</ModDate><ModTime>11463000</ModTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20090825" Time="153732">FeatureClassToFeatureClass V:\Uranium\CD\Roads.shp V:\Uranium\Base.gdb roads # "OBJECTID 'OBJECTID' true true false 9 Long 0 9 ,First,#,V:\Uranium\CD\Roads.shp,OBJECTID,-1,-1;LENGTH 'LENGTH' true true false 19 Double 0 0 ,First,#,V:\Uranium\CD\Roads.shp,LENGTH,-1,-1;HWYNAME 'HWYNAME' true true false 40 Text 0 0 ,First,#,V:\Uranium\CD\Roads.shp,HWYNAME,-1,-1;ALT1_NAME 'ALT1_NAME' true true false 40 Text 0 0 ,First,#,V:\Uranium\CD\Roads.shp,ALT1_NAME,-1,-1;TYPE 'TYPE' true true false 16 Text 0 0 ,First,#,V:\Uranium\CD\Roads.shp,TYPE,-1,-1;ROAD_NO 'ROAD_NO' true true false 4 Short 0 4 ,First,#,V:\Uranium\CD\Roads.shp,ROAD_NO,-1,-1;Shape_Leng 'Shape_Leng' true true false 19 Double 0 0 ,First,#,V:\Uranium\CD\Roads.shp,Shape_Leng,-1,-1" # V:\Uranium\Base.gdb\roads</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Merge" Date="20090831" Time="124427">Merge interstate;road;county_hwy;state_hwy;US_hwy V:\Uranium\wyo_road.shp "OBJECTID_1 'OBJECTID_1' true true false 9 Long 0 9 ,First,#,interstate,OBJECTID_1,-1,-1,road,OBJECTID_1,-1,-1,county_hwy,OBJECTID_1,-1,-1,state_hwy,OBJECTID_1,-1,-1,US_hwy,OBJECTID_1,-1,-1;OBJECTID 'OBJECTID' true true false 9 Long 0 9 ,First,#,interstate,OBJECTID,-1,-1,road,OBJECTID,-1,-1,county_hwy,OBJECTID,-1,-1,state_hwy,OBJECTID,-1,-1,US_hwy,OBJECTID,-1,-1;LENGTH 'LENGTH' true true false 19 Double 0 0 ,First,#,interstate,LENGTH,-1,-1,road,LENGTH,-1,-1,county_hwy,LENGTH,-1,-1,state_hwy,LENGTH,-1,-1,US_hwy,LENGTH,-1,-1;HWYNAME 'HWYNAME' true true false 40 Text 0 0 ,First,#,interstate,HWYNAME,-1,-1,road,HWYNAME,-1,-1,county_hwy,HWYNAME,-1,-1,state_hwy,HWYNAME,-1,-1,US_hwy,HWYNAME,-1,-1;ALT1_NAME 'ALT1_NAME' true true false 40 Text 0 0 ,First,#,interstate,ALT1_NAME,-1,-1,road,ALT1_NAME,-1,-1,county_hwy,ALT1_NAME,-1,-1,state_hwy,ALT1_NAME,-1,-1,US_hwy,ALT1_NAME,-1,-1;TYPE 'TYPE' true true false 16 Text 0 0 ,First,#,interstate,TYPE,-1,-1,road,TYPE,-1,-1,county_hwy,TYPE,-1,-1,state_hwy,TYPE,-1,-1,US_hwy,TYPE,-1,-1;ROAD_NO 'ROAD_NO' true true false 4 Short 0 4 ,First,#,interstate,ROAD_NO,-1,-1,road,ROAD_NO,-1,-1,county_hwy,ROAD_NO,-1,-1,state_hwy,ROAD_NO,-1,-1,US_hwy,ROAD_NO,-1,-1;Shape_Leng 'Shape_Leng' true true false 19 Double 0 0 ,First,#,interstate,Shape_Leng,-1,-1,road,Shape_Leng,-1,-1,county_hwy,Shape_Leng,-1,-1,state_hwy,Shape_Leng,-1,-1,US_hwy,Shape_Leng,-1,-1;Shape_Le_1 'Shape_Le_1' true true false 19 Double 0 0 ,First,#,interstate,Shape_Le_1,-1,-1,road,Shape_Le_1,-1,-1,county_hwy,Shape_Le_1,-1,-1,state_hwy,Shape_Le_1,-1,-1,US_hwy,Shape_Le_1,-1,-1"</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20101002" Time="184518">FeatureClassToFeatureClass V:\Uranium\wyo_road.shp V:\Uranium\Uranium.gdb\Base Road # "OBJECTID_1 'OBJECTID_1' true true false 9 Long 0 9 ,First,#,V:\Uranium\wyo_road.shp,OBJECTID_1,-1,-1;OBJECTID 'OBJECTID' true true false 9 Long 0 9 ,First,#,V:\Uranium\wyo_road.shp,OBJECTID,-1,-1;LENGTH 'LENGTH' true true false 19 Double 0 0 ,First,#,V:\Uranium\wyo_road.shp,LENGTH,-1,-1;HWYNAME 'HWYNAME' true true false 40 Text 0 0 ,First,#,V:\Uranium\wyo_road.shp,HWYNAME,-1,-1;ALT1_NAME 'ALT1_NAME' true true false 40 Text 0 0 ,First,#,V:\Uranium\wyo_road.shp,ALT1_NAME,-1,-1;TYPE 'TYPE' true true false 16 Text 0 0 ,First,#,V:\Uranium\wyo_road.shp,TYPE,-1,-1;ROAD_NO 'ROAD_NO' true true false 4 Short 0 4 ,First,#,V:\Uranium\wyo_road.shp,ROAD_NO,-1,-1;Shape_Leng 'Shape_Leng' true true false 19 Double 0 0 ,First,#,V:\Uranium\wyo_road.shp,Shape_Leng,-1,-1;Shape_Le_1 'Shape_Le_1' true true false 19 Double 0 0 ,First,#,V:\Uranium\wyo_road.shp,Shape_Le_1,-1,-1" # V:\Uranium\Uranium.gdb\Base\Road</Process></lineage><itemProps><itemName Sync="TRUE">Roads</itemName><imsContentType Sync="TRUE">002</imsContentType><nativeExtBox><westBL Sync="TRUE">-111.055288</westBL><eastBL Sync="TRUE">-104.052341</eastBL><southBL Sync="TRUE">40.997236</southBL><northBL Sync="TRUE">45.004644</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><itemLocation><linkage Sync="TRUE">file://\\G042CJ4BXM27C\J$\Geology\WSGS\GIS\Highway_road</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Geographic</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><peXml Sync="TRUE">&lt;GeographicCoordinateSystem xsi:type='typens:GeographicCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433],AUTHORITY[&amp;quot;EPSG&amp;quot;,4269]]&lt;/WKT&gt;&lt;XOrigin&gt;-400&lt;/XOrigin&gt;&lt;YOrigin&gt;-400&lt;/YOrigin&gt;&lt;XYScale&gt;999999999.99999988&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;8.9831528411952133e-009&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;LeftLongitude&gt;-180&lt;/LeftLongitude&gt;&lt;WKID&gt;4269&lt;/WKID&gt;&lt;LatestWKID&gt;4269&lt;/LatestWKID&gt;&lt;/GeographicCoordinateSystem&gt;</peXml><csUnits Sync="TRUE">Angular Unit: Degree (0.017453)</csUnits></coordRef><copyHistory><copy source="I:\Data\GIS\Base\Wyoming\Shapefiles\Highway_road" dest="\\G042CJ4BXM27C\J$\Geology\WSGS\GIS\Highway_road" date="20180508" time="12215700"></copy></copyHistory></DataProperties><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7600) ; Esri ArcGIS 10.1.1.3143</envirDesc><dataLang><languageCode Sync="TRUE" value="eng" country="USA"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">Roads</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-111.924987</westBL><eastBL Sync="TRUE">-103.595605</eastBL><northBL Sync="TRUE">45.600202</northBL><southBL Sync="TRUE">40.337872</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><dataExt><geoEle><GeoBndBox esriExtentType="search"><westBL Sync="TRUE">-111.055288</westBL><eastBL Sync="TRUE">-104.052341</eastBL><northBL Sync="TRUE">45.004644</northBL><southBL Sync="TRUE">40.997236</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><descKeys><thesaName uuidref="723f6998-058e-11dc-8314-0800200c9a66"></thesaName><keyword Sync="TRUE">002</keyword></descKeys></dataIdInfo><mdLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\BAROSAURUS\Departments\GIS\Base_Map_2010\Base_Map_2010.gdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">File Geodatabase Feature Class</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">File Geodatabase Feature Class</formatName></distFormat></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="4269" value="102009">North_America_Lambert_Conformal_Conic</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">7.11.2</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="Roads"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">1118</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20130319</mdDateSt><Binary><Thumbnail><Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACFAMgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii
+gAoqP7RDlwZUGxtrZYcHGcfkRUnWgAopAwLFQeR1pkc8U0PmxyI0eM7gcigCSio0nikkkjSRWePG
+8A5257H3p5ZVKgkAscAetAC0UgZWLAEEqcEelIjrJGrowZGAKkdxQA6ikDBhlSCPUUtABRRUKXdv
+LO8CTI0yfeQN8w/CgCaikLqHCFhubJA7nFLQAUUUUAFFFIWAYKSMnoPWgBaKKKACiq8t9aQg+Zcx
+Lg4OXHBqcEMAQQQeQRQAtFFFABVY6hZLI8ZvLcPH99TKuV+ozxVmqmpwSXFi6RIGlyChJwVII5B9
+R1HvigCtYTxJbyy+U8jebMyukZbeu9iMH8cfh6c1Zt7SPyt4Y5kO8GN+Fz2Xtj+dRS6hcJJFGLB1
+eV9qGWRAvQk5IJI4B6A02GyvIlaVLhEmd2d4yu6Pk8AdCCAAM9+TjmgC/HEsQIUdTuYnkk+pqtc6
+VZXUglltojKDkOY1J/Uc0btSPPl2iY/h8xm3fjgbfyNKZNRyMWtrjv8A6S3/AMRQAiI1ohgCkQ/w
+PEgyvqCoGPxA/wDrshRXV7lZHjZSwHmOSFA65B9cZ/KllnvkX5ltYc8A72kJPoFwufzqjeWmpTwy
+s91DDE4CyKsH3l6HPznHGehzigCQ3txcsstvZ3EYdMGSQYVuQe2W/vYO3vUFvaaiyBrN1s4UBQRG
+Zpd2DjA3ghRwccfhWk0l/CpLraOo/iMjR/phsfnVcyalJOskVvHEp4dsl93/AAFth/GgBNPhuBax
+z215JIsigtFdAHYcdBtA2kHqOR9Ks51KPDMLaYZ5RAUIHqCSc/TA/pWdM97YvPdIyfMA0i/ZWVOD
+ySd55xnkdeK0/s923373GevlRBfyzmgCGe+vkaFY7FFMr7FE02DnaWP3QRjCnvTG0eK5na61COO4
+m/gRAVVePc8n3P6VbjsYI5lmHmu6ghTJK7gZ7gEkA+9WaAOY+1f2TrkVvuWOzuB5aMxaQQyddmSQ
+BnjjnHsK6Zd20biC2OcDjNUtXskvtKntzsViuY2bgI4+6fzrLsZ7a/MEFpJNFMpP2mJLhiIgOo6k
+YJwBt7Zx0oA2Zb2OOUxBJZHUZYRoW2/U9M+3Wo49Ut5kV4UuJA3QrbuAfxIAqxBbxW0eyJdoJLHJ
+JJJ6kk8k+5qWgCGC6iuGZU3hkALK8bIQD0OCBxwfyofIu4j2KMOnf5T/AENRXcMgdbu3AM8SkbcD
+94p5K57Hjg+v40ltKl8RcpJvhUgxYGAcqOfryR/9egB2pQ3c+nzR2FyLe6wDHIyBgCCDgg9jjB9j
+VWCaeW2STUYZEkChnhiUsgOOecZbnPB9uO9alZU8s2pRsLXyfJUhlEnJn2t2IPCnGMkHOemOqtrc
+rn93lt/mP097aK2hkZmBZBhnUhVB/hU4AAz/AE9qkjt4Y2SWzuFiRmGUU7o378DsevT8c1Xk8RWc
+LCOSO5E5B/ciIs2QcEccfjnHvRb2l5c3Zv5pzbBtuyCNUY7ByAzEHkknO0+mD3pkmtRRRQAUUUUA
+U4x52qzOclYI1RfQMclvxxs/yTVyse6umi1LdZqXmPySREYEmMDI75GfvdOCD0q79pul+/YO3/XK
+RT/6EVoAt0VBBeQ3BKqSsi/ejcbWX8D29+lT0AGBnOOaZJIqYDBjn+6pP8qfRQBQhRY5h58bIucQ
+K5BVPQDnr/8AqFX6bIiyxtGwyrDBrNto4hOySL5iEld0yqSGGMLnrznIB7YxQBozRJPC8Mi7kdSr
+DOMg1j2dwkUl6r6j5aR3BSIzShsgKpIO48gEkevHWprgD7ebaJ0slEYczpgM+SRgAjHGOpB68DvV
+yxtbW1to47ZVKIu0OOSfqe5oArx6nbwbY7q8hy/Kyeau1v5Y7/4083lxO5+xW8csQXPmSu0YY88D
+5TkdOenNWjbwMGBhjIbqCo5ptu37vymPzx/K2e/ofx60AVVtZri/We7t4Aqxlcb/ADOcjBGVGP4s
++vFZyWSXPiS9EjPH8ivE0JMbrwFYEg9PlUgdDn2roayYmUeJmK7sy2vzqRypVgP1Ddv7tABLbatA
+wFrfLLEevnxBnX6EFQfx6e9IRrqY2Pbyse0ke1R+IbP6H+ta+RnGeaKAMh9PvLg+Vc6lM/AZ1iVY
+0/Qbj0/vYqODR7C3eSLyrkxKQFPnSNjgccHNakZHmzyOQCCFPoABkfzJpsFxC00yiRMmQYG4ZPyr
+QBSh0e0dGI+2RtlgGW5lQ4zxxu+nX0rObw/DphV989xbLwI/tDo+ADwACA3044HfnPT1D96856Rx
+8e+4n/4n9aAKOm29q0SvZ20FvD/EsSgMWB4DccEdx61Ms8lvPHZCPexyyMTgeWCM59xkDHfjnrhs
+8EE032m3MiXWMLLEpIYeh/hYfX8MVVt7yaPXZYLq3HmvBEQ0LbsLuYZIPI5I4G4DqT3oA2qKKKAC
+q09xLEkmLdztBIcEFfyzn8MVZqkb55PNS3tZ2ZGKb8KAGH1YZFADdJiC2nnkszzsZNzHJKkkr9OC
+Dgdyav1nW9le21uqxXSE/eZJEBG4nJAIxgZJ7H+lSLqIiBW8jeF1+8wRmjx6h8Yx9cUAT3FrHchd
++4OhyjocMp9j+NQYv7bOCt4mehwkgH/oLf8AjtWvNUyKgOSylgR0xx/jT6AK0F9BM5i3hJwSDC5A
+cfh/UcVZqOe3iuY/LmQOuc89j6g9j71VYXtnGzIRdxKM7G+WTHs3Rvxx7mgC9UbwQyEl4kYnuyg1
+RbVXihjmltHMUu3y2hbzM59QOenPGR7irEd8k0RljjZ4xnLB0wMdc/NxQBFbxiDVp0CkiSJWVixO
+0A42+wyc/ifQVbaCJn8woA+Qdw4PHuKz2kuL2eC6tLdAkTN88r7fMUjHGAeM4PocD2NWTdXEWDPZ
+sF6Fom8zH4YBI+goAllkdpDDCQH27mY87QenHcnB/L83xxJFnbkk9WY5JqjBqFvjzZZCJZAMrsYb
+OOmPxP8AnFXopY54xJE6uh6MpyKAFdA4wSw/3WI/lWdeaSskgubYql0oxlxvWQZzhs8+vI5GfwrT
+ooAyYbiwurd18tba5TCPFtCyRvgEAevbBHBq+jXRjG6OJWI5+c8H6Y/r+NZipNHqV7CgAcP9rjP9
+8FAgU/irD6YxWvFKs0SuvQ/oe4/OgCNbb5y0jlyW3YxhQcY6fh3zRHgzXEbgHLBtp7jaB/MGp6hu
+QUQzofnjUnB6MO4P5Dn/APUQBfs0fYyD2EjAD8M01re2QbmhQkkDcy5JyfU1PUc0SzxGNsgHHT25
+oAkrIch/E0aggOsYJ56oA2f1dfyNXkulXTlu5iAPKEjbenTPFZ9jpNwLiK9ubgrcbcyLHyHOOd2c
+j2+UDHrQBs0UUUAFUrNgt7fRFhv80SAf7JRRn8wau1mTmG2122laQBpo3jKlh1+Ug/8AjuPrigDT
+oqmuoxylxCpJTOWf5UA9c+h6gjOael6jcFJOuMohdT9CBQBn2ss1tdNB9kuDHB8q42nbGwBHfJwQ
+QOOn0rUt7iK6hWaFw6N0I/kfQ+1UrKZpJbudbeZlkm2qTtBAUBSME8fMG/P3qO7VoLgXrQMsLAJM
+qSYPUYfjg49+3PGKANaiq0TzRRqtwpcngMg3H2BwOvv0qaOVJVyjZxwexH1HagDKONOuUilnMcGC
+LdhFk5ZvuE89OMdCQfY0T6dc304kby7dcqSyqd8mDkBlzgjIHXPfpmp3WFpLi3uQ0sswKhc8mM9h
+2HTnp057UsdrexW6Fb6R5VXlJVUqT6ZAB9s5/OgCeIyuDiVhIpw6OAQPyxT8zo3zKsqn+4NpH5nn
+/PXtUS9Vbl3ngnhYoqkGFmAILfxLkY5Hepv7Tsc4N5Arf3WcKfyNAD2vIVUkFnYDlEUlh9QOn41T
+itbC8cXEsSedIN4+XacY7HALfXmtJHSRdyMrD1BzVaRfs6Hcgltl5Ibkp9PUfr9elAEPkWfUXNwU
+9RcyFc/72f0zTftE9r8qSJdJn5UckSqPTgHd+IHue9XvtC90lA7Hyzz+HX86jkEtyNqZjjB5Lr9/
+2x1x+X5UAYJ1y1k1ed2W8i2W6q0f2dyxIZiRkAgDtn9atx+IrOONMec8e3AEVlKuPTGRyP8A61aV
+rGzbZ3bkqQqqAF254469B69zU8UYiXapO3PAP8I9B7UAZcWt2t9Gv2e6tVZsMEkn2v1BwVxkZ6f4
+1dlnSexlMbYZlKAHqGI4GKSe3jlC23lrsbc5LKGxzk4Bz3NUBoNjHflrNGs5FjyZIH2kknjjofun
+qPSgDapkyGSF0DMpIwGU4INYiTSPqCWeqTJMshKwmA7UYgZw65zu4P8As8etaEunWEaFhYW7EkAK
+UGMk49OKAIp40aGyWLcDLLGVBlYgBfnP14Uj8q06xrjTLW1+ySeUdkf7t2jcqV3YGRyMDOOlX0tr
+iJx5d2WjzysybiB7EEH880AWqKKKACsm6Fssc1yg85/NVZVyCTtP3eegHX6VrVmy2kU+sNkNtMAM
+yhsBiSQp49t4/L0FAFg+XfQRzxqNyNmMyKQQQcEeozjFQahey21o8vlzKYwWYIu7cAD0OCOuDzji
+pw0dtcyKz7I2XeNzcZydxGenb/OaiuNQtJI2gjIu3kBTyoWBz6gnOF/EigCaxt/s9sAZPMkf55JM
+53Me/wBOw9gKndFkjZHGVYEEeoqpZvJbWcEV0JN6RqHlY5DNjk5ye/rUxnaRT9nTf6O3C/8A1/wo
+AjsZGFs0czZe3Yxs5/iwAQ35EZ9806TE7AxI24dJclQP8R39KrRRLBqciTfP5+JEZl4LgYYDsCAF
+98Z64JrSoAjij8teWLOeWY9zUlFFABQQCMEZBoooAy9QihtfKngUwzmRE3RrjcC6qQ3Y8HjP4VfE
+CkhnLSEHI3HjP06fpSzwpcW8kMmdkilTjrzUVlO0sPlzcXMYAlBGOf7w9jjj/wCsaALNFV48Tz+e
+GOxMogHQnPJ/TH5+tTO6RoXdlVR1ZjgCgCkr+VJsErLI0uBERwRnqMjpt544q/WddajaPZylZP4C
+Uco20nsQ2MHnuDV6KaOeMSROroehU5FADPvXv+5H+e4//Y/rTpbeKZlMsavtzjcM9abDzPcE9Q4X
+8NoP8yfzqagDH1t47d9NllLJbxXILFELYO0heBzznH41PNdyStGYbO6aNHDM+0LwAegYhuuO3rVf
+xD5t3o9zBZo00oG7Kfwsp3DnI5yo4qSye3u5AqzpPGYw4UszdyOQWOCDigCV7m21O2lt4plWXHCu
+MFSDwcHqAR1H51PaXRuoopAm0PCkp56bug/Q1HqVlb3VkY5bcSADaoHVc8ZGAenXp2rM02W8ju5F
+8wyW28RR+bG5YhSc/NgdOeoOcdRQB0FFFFABVWXT7aaVpZUZnYbSd5HHYcH3NWqovq1jBJLHc3lt
+C8Z5DzKOPXn8qAKmp6bHJ9kiSeZC9wv+slaRTtBYAqxweVFW/wCzSdm69uTs+6BsXB/BRWYda02/
+1AZkkaKFfkVYpCzsSDuAAzgYwD3yfxT/AISK4a9NjbaZczTcbXnHlLj3J9Pz9qANWK5e2uBa3bli
+5/cylcB/Y44Dflnt3qXetoSJGCwk5VzwFJ7HsB6fl6ZoQ6IJ8SaqyXUhAzGFxH+IPLf8Cz7AU6bS
+9It9m3SrEyFgFHkKOc9c44oAs3pR7VLqO4iQQnzFkYgoeCOTkccnvWZba+L+3ia1MlxLIgby7eHA
+Q+jOx28Z/Sp59DtI4DPHZwyXKyLN8qAZKsCQo6AkDH8zV9Bb3cS3UR/1igiRMhiO2f8AA0AVUvtS
+SNWudJbnG4W86uR+B2/pmnLq4Oc2N8uCR/qd3P4E1ct5DLApb74ADgjBBx6UyPC386g43Ij7ffkE
+/kAPwoAr/wBpyN/qdNvZD7oqD/x5hUJu9WlRnjtrSFQxQCWVnbOcDIAA5+ta1VLtWi/eopZCymQD
+tgj5vyHP0HpQBF9j1GTiXVNg7/Z4FX/0LdVY6PJJfSM2q33EIVSCgIBJzyF56DGff1rZ61A/zXsY
+A+6hZm+vAH48n/gNAFCa11K3tJPI1MYRCV822UkYH+ztH6VAdDvJFxNfW0zdRJJbOzA+ozJhT/ug
+e2K2po/NhkjzjepXPpmoUumePf8AZ5CufvKVII9RzkjvQBUGpTWKFdUhKKv/AC8wqWjYepxyp+ox
+70nkG8dLyxaOEFSCcZ84cEZKnjnv15PHrf8AtGW2pDM/GSdu0D/vrH6Vkzx+U0tzpUrQS43S25tm
+ZHOOMqACG9x+tAF+1uIow0Dw/Z5VOSgGd/upx8316+tShJphmVjEp58tDzj0Lf4Y/GsG91qWCKGe
+60+4WaFwVmhAaN1OAcZIbBB9ODj0rZtL43sIlt/s8i99sxOPY/LwfagCYTKoMUEZfZ8uBwqkdif8
+M1nabHO+oajcI8aRtII9qodrMo+ZhyMnJKk99tW7KNoyY53JnDM3DnBBOeB7Zx9RVTTruO1hltPm
+knjuJVWJAN5BYsPYDDDk8UAaW244xLF7/uz/APFVTsJomiMUq728+UqfLJU/OeQfxpl69/PbyxKk
+VsrxOdzEu4HfgYAPPXJqY2Yt2hkjS3j2OB+7h28HjHXpzmgC/RRRQAVVltYg6SRQqsvmBi6qAefv
+Z9cj+lWqKAGSQpLjduBHQqxU/mKYbWMxyL837wYJLEn26+lTUUAVTPciBc2zGXA3EFdoPc9c49qR
+o2NuCNzSyMp3bcY5yMjsBjp/U1booArzzTLII4LYyNjJZm2oPx5OfoDSWNs1rbeW7hnZ2kbaMAFm
+LED25qzRQBXaOX7Qwjk2I6gsduSD0yD06fy96kihWLJBZmb7zMck/wCfTpUlFABRRRQBVgd4ozH5
+MrBGKrwB8o6d/SkZZp5xJC3kqo2kuhy478HGMdjz1PHrbooAh+zkn555mHpkL/6CAab9m8rBttsZ
+Axs/hb8Ox9/51YooAYjkxlmRlIzkdenp61VjSZpehiilBc4GWzx1J/ljt1q7RQBVaxhNsYUyn3cO
+DlgVwVPPoQOOlZ7afczXT3CMttd7VWRihaOUDOCCCGB65GfTrwa2qKAMZ7PWJEKedaKB0DBpOfX5
+hkfmetZun6frcl9czNdrYRzMJMQ2w+bAC9GJ28KD/wACNdXRQBgS6bqzGTdql0xCsqERQYIPr8o9
+Kmgs792hFxfXjpv3MGSJc4yR90ZHQf41s0UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//9k=</Data></Thumbnail></Binary></metadata>

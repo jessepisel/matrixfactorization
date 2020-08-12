@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata><idinfo><citation><citeinfo><origin>Wyoming Geographic Information Science Center</origin><pubdate>1997</pubdate><title>County Boundaries for Wyoming at 1:100,000</title><geoform>map</geoform><pubinfo><pubplace>Laramie, Wyoming</pubplace><publish>Wyoming Geographic Information Science Center</publish></pubinfo><onlink>http://piney.wygisc.uwyo.edu/data/boundary/county.zip</onlink><ftname Sync="TRUE">Wyoming_Counties</ftname></citeinfo></citation><descript><abstract>This dataset contains information on the county boundaries and names
+for Wyoming mapped at a 1:100,000 scale.</abstract><purpose>This dataset was developed for the purpose of displaying 1:100,000-scale
+counties, also it has been used for clipping other data layers to specific counties.</purpose><langdata Sync="TRUE">en</langdata></descript><timeperd><timeinfo><sngdate><caldate>1993</caldate></sngdate></timeinfo><current>date boundaries were digitized</current></timeperd><status><progress>Complete</progress><update>None planned</update></status><spdom><bounding><westbc>-111.26477012</westbc><eastbc>-103.83670034</eastbc><northbc>44.99903411</northbc><southbc>40.94837176</southbc></bounding><lboundng><leftbc Sync="TRUE">201689.050000</leftbc><rightbc Sync="TRUE">789894.870000</rightbc><bottombc Sync="TRUE">200265.860000</bottombc><topbc Sync="TRUE">650276.950000</topbc></lboundng></spdom><keywords><theme><themekey>county boundaries</themekey><themekey>100k</themekey><themekey>county</themekey><themekey>boundary</themekey><themekey>boundaries</themekey></theme><theme><themekt>None</themekt></theme><place><placekey>Wyoming State</placekey></place><place><placekt>None</placekt></place><theme><themekt>ISO 19115 Topic Category</themekt><themekey>boundaries</themekey></theme></keywords><accconst>none</accconst><useconst>
+This dataset was produced with an intended application at the 1:100000
+(or smaller) scale.
+</useconst><ptcontac><cntinfo><cntaddr><addrtype>mailing address</addrtype><address>1000 E. University Ave, Dept. 4008</address><city>Laramie</city><state>Wyoming</state><postal>82071</postal><country>USA</country></cntaddr><cntvoice>307-766-2532</cntvoice><cntemail>wygisc-info@uwyo.edu</cntemail><hours>8 AM to 5 PM MST</hours><cntorgp><cntorg>Wyoming Geographic Information Science Center</cntorg><cntper>Data Manager</cntper></cntorgp></cntinfo></ptcontac><native Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7600) ; ESRI ArcCatalog 9.3.1.3500</native><natvform Sync="TRUE">Shapefile</natvform></idinfo><dataqual><attracc><attraccr>Only one attribute, county names.</attraccr><qattracc><attraccv>n/a</attraccv><attracce>n/a</attracce></qattracc></attracc><logic>
+All polygons are closed and adjacent polygons do not have identical
+attributes. Each polygon has one label.
+</logic><complete>
+All attributing is complete.
+</complete><posacc><horizpa><horizpar>
+The Surface Mangement Status Maps from which the counties were digitized
+have an accuracy of +/- 120 feet, according to USGS national mapping
+standards. Because some of the digitization was from folded or otherwise
+poor quality paper maps, there is a 5-8% range of error associated with
+this digital data, translating to approximately +/- 300 feet.
+</horizpar></horizpa></posacc><lineage><srcinfo><srccite><citeinfo><origin>Bureau of Land Management</origin><pubdate>1974-1991</pubdate><title>BLM Surface Management Status Maps</title></citeinfo></srccite><srcscale>100000</srcscale><typesrc>paper maps</typesrc><srctime><timeinfo><rngdates><begdate>1974</begdate><enddate>1991</enddate></rngdates></timeinfo><srccurr>date of publication</srccurr></srctime><srccitea>BLM maps</srccitea><srccontr>source of county boundary information for Wyoming</srccontr></srcinfo><procstep><procdesc>
+The coverage was digitized from the BLM maps and edgematched into
+full statewide coverage. The state boundary was also digitized
+and edgematched in the same manner concurrently.
+</procdesc><procdate>1993</procdate></procstep></lineage></dataqual><spdoinfo><direct>Vector</direct><ptvctinf><esriterm Name="County_Boundaries_Polys"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">23</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo><spref><horizsys><geodetic><horizdn>North American Datum of 1983</horizdn><ellips>GRS1980</ellips><semiaxis>6378137</semiaxis><denflat>298.2572221</denflat></geodetic><cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">WyLam</projcsn></cordsysn></horizsys><vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">1.000000</altres></altsys></vertdef></spref><eainfo><overview><eaover>The only attribute is the official county name.</eaover><eadetcit>Not Available</eadetcit></overview><detailed Name="County_Boundaries_Polys"><enttyp><enttypl Sync="TRUE">County_Boundaries_Polys</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">23</enttypc></enttyp><attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">COUNTY</attrlabl><attalias Sync="TRUE">COUNTY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SHAPE</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">SHAPE_Leng</attrlabl><attalias Sync="TRUE">SHAPE_Leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Length</attrlabl><attalias Sync="TRUE">Shape_Length</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Length of feature in internal units.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">SHAPE_Area</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed><detailed Name="Anno_8_60"><enttyp><enttypl Sync="TRUE">Anno_8_60</enttypl><enttypt Sync="TRUE">Relationship</enttypt></enttyp></detailed></eainfo><distinfo><distrib><cntinfo><cntaddr><addrtype>mailing address</addrtype><address>Dept. 4008, 1000 E. University Avenue</address><city>Laramie</city><state>Wyoming</state><postal>82071</postal><country>USA</country></cntaddr><cntvoice>307-766-2532</cntvoice><cntemail>wygisc-info@uwyo.edu</cntemail><cntorgp><cntorg>Wyoming Geographic Information Science Center</cntorg><cntper>Data Manager</cntper></cntorgp></cntinfo></distrib><distliab>
+The distributor shall not be held liable for improper or
+incorrect use of this data, based on the description of
+appropriate/inappropriate used described in this metadata
+document. The distributor makes no claims for the data's
+suitability for other purposes.
+</distliab><stdorder><digform><digtinfo><transize Sync="TRUE">0.000</transize><dssize Sync="TRUE">0.000</dssize></digtinfo><digtopt><onlinopt><computer><networka><networkr>http://piney.wygisc.uwyo.edu/data/boundary/county.zip</networkr></networka></computer></onlinopt></digtopt></digform></stdorder><resdesc>Downloadable Data</resdesc></distinfo><metainfo><metd>19970410</metd><metc><cntinfo><cntaddr><addrtype>mailing address</addrtype><address>Dept. 4008, 1000 E. University Avenue</address><city>Laramie</city><state>Wyoming</state><postal>82071</postal><country>USA</country></cntaddr><cntvoice>307-766-2532</cntvoice><cntemail>wygisc-info@uwyo.edu</cntemail><cntorgp><cntorg>Wyoming Geographic Information Science Center</cntorg><cntper>Data Manager</cntper></cntorgp></cntinfo></metc><metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv>FGDC-STD-001-1998</metstdv><langmeta Sync="TRUE">en</langmeta><mettc Sync="TRUE">local time</mettc></metainfo><Esri><CreaDate>20180508</CreaDate><CreaTime>12215700</CreaTime><SyncOnce>FALSE</SyncOnce><PublishStatus>Published</PublishStatus><ModDate>20131211</ModDate><ModTime>09445900</ModTime><SyncDate>20131211</SyncDate><SyncTime>09445900</SyncTime><DataProperties><itemProps><itemName Sync="TRUE">County_Boundaries_Polys</itemName><imsContentType>002</imsContentType><nativeExtBox><westBL Sync="TRUE">-111.055710</westBL><eastBL Sync="TRUE">-104.051895</eastBL><southBL Sync="TRUE">40.994553</southBL><northBL Sync="TRUE">45.006767</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><itemLocation><linkage Sync="TRUE">file://\\G042CJ4BXM27C\J$\Geology\WSGS\GIS\County_boundaries_polys</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><itemSize Sync="TRUE">0.199</itemSize></itemProps><coordRef><type Sync="TRUE">Geographic</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><peXml Sync="TRUE">&lt;GeographicCoordinateSystem xsi:type='typens:GeographicCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433],METADATA[&amp;quot;North America - NAD83&amp;quot;,167.65,14.93,-47.74,86.45,0.0,0.0174532925199433,0.0,1350],AUTHORITY[&amp;quot;EPSG&amp;quot;,4269]]&lt;/WKT&gt;&lt;XOrigin&gt;-400&lt;/XOrigin&gt;&lt;YOrigin&gt;-400&lt;/YOrigin&gt;&lt;XYScale&gt;999999999.99999988&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;8.9831528411952133e-009&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;LeftLongitude&gt;-180&lt;/LeftLongitude&gt;&lt;WKID&gt;4269&lt;/WKID&gt;&lt;LatestWKID&gt;4269&lt;/LatestWKID&gt;&lt;/GeographicCoordinateSystem&gt;</peXml><csUnits Sync="TRUE">Angular Unit: Degree (0.017453)</csUnits></coordRef><lineage><Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20110128" Time="093632" Name="" export="">FeatureClassToFeatureClass B:\Projects\SuiteWater\Thematic_gdbs\Administration_and_Political_Boundaries\Administration_and_Political_Boundaries.gdb\Boundaries_Counties C:\workspace\New_Data\WyGISC Wyoming_Counties.shp # "COUNTY 'COUNTY' true true false 25 Text 0 0 ,First,#,B:\Projects\SuiteWater\Thematic_gdbs\Administration_and_Political_Boundaries\Administration_and_Political_Boundaries.gdb\Boundaries_Counties,COUNTY,-1,-1;SHAPE_Leng 'SHAPE_Length' false true true 8 Double 0 0 ,First,#,B:\Projects\SuiteWater\Thematic_gdbs\Administration_and_Political_Boundaries\Administration_and_Political_Boundaries.gdb\Boundaries_Counties,SHAPE_Length,-1,-1;SHAPE_Area 'SHAPE_Area' false true true 8 Double 0 0 ,First,#,B:\Projects\SuiteWater\Thematic_gdbs\Administration_and_Political_Boundaries\Administration_and_Political_Boundaries.gdb\Boundaries_Counties,SHAPE_Area,-1,-1" # C:\workspace\New_Data\WyGISC\Wyoming_Counties.shp</Process></lineage><copyHistory><copy source="I:\Data\GIS\Base\Wyoming\Shapefiles\County_boundaries_polys" dest="\\G042CJ4BXM27C\J$\Geology\WSGS\GIS\County_boundaries_polys" date="20180508" time="12215700"></copy></copyHistory></DataProperties><scaleRange><minScale>150000000</minScale><maxScale>5000</maxScale></scaleRange><ArcGISFormat>1.0</ArcGISFormat><ArcGISProfile>ItemDescription</ArcGISProfile><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle></Esri><mdDateSt Sync="TRUE">20131211</mdDateSt><Binary><Thumbnail><Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsK
+CwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCACFAMgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9U6KK
+KACuIPxb0pru9hh0vX7yO0uJbWS5tNHuJojJGzK4Uqp3YZWGQMZHuK7euD+Fd3bWmja1HJMkLf8A
+CQas2yUhDzezHOCeh6g9xzxQBMfjF4cUDcmtqSM7T4f1AkcZwcQdefz460D4x+GDkeZqvmBtvlf2
+HfeZ/vbPJ3be27G3PGa7SORZUDoyuh6MpyDTqAOJPxp8FoWWbXI7WVfvQ3UMsMicZ+ZHUMvAzyBx
+zQPjV4IY8eI7M5BPG7oBknp6c/Su2ooA4l/jb4DiZ1m8WaVbshIZbi4EZGDg8Ng9eKmh+MXgSfdt
+8ZaCCpAIfUYVIJ6cFhXYVwfxPtfJ1HwbqaJC8ltrcMDRzRbw6Tq8DDjoQJSw6jIGaAL5+L3gRQSf
+Gvh0Bcgk6rBxj/gfuPzpX+LfgZH2t4z8PKwO3adUgBzkjH3+uQfyrov7Ls/+fSD/AL9r/hXn3xds
+I9E/4RjxNBppuYdF1RJLyK0tTLJ9llRoZX2r/CgkEjcH5YzjmgDfHxb8DFWI8Z+HiFyGP9qQcY65
++egfFzwKSB/wmnh7JAIH9qwcg8A/frcsoNM1Kzgu7WG2ntp0WSKVI1KupGQRx0Iqb+y7P/n0g/79
+r/hQBzo+LfgYor/8Jn4e2tgBv7UgwckgY+f2P5H0pB8XvAhB/wCK18O8c/8AIVg9M/3/AE5ro/7L
+s/8An0g/79r/AIUf2XZ/8+kH/ftf8KAOcm+LvgWCIyP4z8PhAM5/tOE5GAf73PDL+Y9arH42+AFZ
+gfGWigr1BvY+OM+vpUGtWFvF8XvB5S2iUDTNUOVRRgiSzx2z613tAHEt8avBCIHbxHZqrDIY7sEY
+DZ6ehB+hFMT42+DbhFez1SbVFI3Z0uwubwKOOvlRtjORjOM846Guzu41ltZkYMVZGBCfeII7e9cj
+8FpHk+EPgwyF2YaRajMgAbAiUDIBPOMZ5NACSfF/w6jbdutO3YJoF+c84xnycdf056c0tr8WdFnv
+bG2ls9c083ky28MuoaJd20RkY4VS7xhVJPAyRkmu0rifiypbRNFwFJHiDSiNw6f6bFn8cZoA7aii
+igAooooAKKKKACvJvhj8NfCWt+Fbi81Pwpot9eXGq6mZp7rT4ZZJcX9wFLMVyeAMZr1muK+DuD4D
+gcBx5l9fykOeQWvJmOPbJOPbFAGZY/DfxH4Xsr6z8L+J7DSbCS4uLm1s5dFWSO3Mjl9nyyJlQWIw
+AOMd+TtfC/xdf+NPDEl5qdpBaX9tfXWnzC1dnhkeCZ4i6FlVtpKE4IH4jBPXV5ZYg/Dz41nTIpLd
+dE8axz38NssRRoNQt0jE20g4YSxEORgENE7ZO/AAPU6KKKACuG+KbhR4RWWNms38RWYnkQEmL75i
+P0MwhQ+znp1Hc1w/xYdV0zw95jMsf/CQacWIOOlwrDPtkAn6UAdxTJoY7iF4pUWSJ1KujjKsDwQR
+3FQf2pZ/8/cH/fxf8acmoWsrhUuYWY8BVkBJoA81ufgyPBs6ap8Obr/hG7yBJd2jSF5dLvQwyqPC
+XHlbWHytEV25IwVOKi8IfGLxF410H7dp3gK4a4jeS3nt5dVtk8mdHaN0fncAHQ87TkYIBr1evL38
+L2fhz9oXT9X06K3sm17QbuLUYoIyjXUlvNbtFK+PlZlE0i5I3YfGSOgBtN4j8dTF2t/BdhHGCQov
+tdEbtjHOI4JBg84+bPqBTl13x6WbPhHRgvYjxA+T/wCStdpRQB5VcXfie7+JHgiTX9J0vTI/NvVi
+/s/UJbmTm3YlXzDGNp2g9TyF4z09VrivGAU/EDwFlST9pvNpAJwfsr89RjjPr16dx2tABXEfBHH/
+AAp/wbghh/ZVvhgMZ/djt2rt68g+GHxY8G6H4KtNMv8AxPpVjc6c89q1tPdKrwpHNIiKwJyMIq9f
+zPWgD1+uJ+MQB8EqcNldV0sgp1B/tC3/AMn2zSr8avA0jYj8TWE2RuBhcuCPUFQQa5L4qfFLw5rX
+w71iGzm1CV3RGguV0i68oOsgZJFlMYjwCgYPuCjAORkGgD2KiiigAooooAKKKKACuJ+Cq/8AFqPC
+8hILTWSTsRjlny5ORweWPI69a7OaVYIXkc4RFLEj0ArjvgtC9v8ACLwaki7G/si1bbkHGYlI6cd6
+AO0ry39oFrbS/D+ha9/Ykms6npmt2DWq2satdKpuYjKsORnLIhG0ctgDuK9SrivikwSz8OEqG/4n
++njBx3mHqD/j6YPNAC6L8XfDur+GNW16SW70iz0iTyr+PVrSS1mtpPLSTY0bgEnEiAYzknAyaueC
+/iX4e8fm4TR7yVrm2AM1neWstrcxKSQGaKVVcKSCAcYyCM5BrBuvghpl/wCPNR8SXOta1NHf3Fre
+TaQLhUtDNbhRCx2oJGVdufLZymSSR6W/if4E1DxDFBrfhm+GkeMdNikSyvNqlZo2wXt5NysNjlVO
+SDtYK2DjBANvxd4303wdp0tzdM1zOjRRpY2rIbiV5HWNFVWYDlmHJIA5JIArzfxH4R8dfEXwFqj6
+rNYwyPJcXFt4cvNKil3eVMzWqPJ5xHzhIy3s5HHNa/wp8HaNrumP4vv4W1rWdYmS7ln1iztftFnL
+GqRGFTEgA8tocZGeQTk8V6jQB5x4N8E/D7xd4etNTg8EaDC0iMkkEulWwkicEo6MFBA5UjgkEDqR
+WxP8H/AlwriTwX4fPmEliNMgBJJBJyFz2FZ+o/B+xh1mXWPC99L4N1OYobg6TbQCC8KyM+Z4ynzk
+l2BIKsQeuQCK0eteO/COqahFqWlS+MtMFvFLb32mJbWZjfMnmo6SzgnAERBHqfwANRfgt4CVmYeE
+NGDN1Is0yf0rBu/AXh7wd8RfA8ug6FZaS8s15HK9jbiPcn2ZzhiuONwB54zjviu88K+J7HxhoFhq
+1hIGgu7eO4EZdWeMOgYK+0kBgDzgn6muf8bMY/HXw8YYBfUrqM5AOVNjcNxnocoORz17E0AdtRRR
+QBxHjf5PHfw6cHBbUrqMggcg2Fw3f3UdP8a7euH8cq58c/Dkr90apc7hgf8AQPueeR/LB59Mg9xQ
+AVxPwcbd4IJ3b/8Aia6oM4x/zELjj8On4V21cV8IC6+DpY5Btli1bVEZSCCv+nzkdfYj86AO1rif
+jcC3wg8ZALuJ0q4wvHPyH14rtq5L4uBW+FPjPeCVGi3pODg/6h+hwcH8DQB1tFVdMcyabaMTuLQo
+dxOc/KKtUAFFFFABRRRQBn+IJmt9B1KVQCyW0rAHpkITWP8ACyOGH4ZeEooGLRRaTaRqT1wIUGDy
+cHjpU3xG1F9H+Hvii/jVXktdLup1V/ukrCzAHkcceorkNJ+C1lodtol74TvP+EYv4I1a4eCHfDeZ
+hEZMkIZY9xwrZAHIBoA9I1PU7XRtOub++uI7Szto2lmnlbakaKMlifQCvJPHfxK0bxRq3gy18Kaj
+pniDWodbWddNa88ncotLn5nIVmUDIIOxuccc5DfCPw+g+IFv4sfxJq2q6sZNVuNPka3vrq0tp4ow
+iFPIEpTAdXU4GDhhXs1AHFaF8QLyfxZF4b17R00TVZ7R7u38u+S4iuFRlVwhwrEjdnBQcAntXa15
+z8Zp10FPCfimZjFYaDrUc9/KrBfLtpYpbZnYnjYrTo7ZIAVCc8V6HFKk8SSRuskbgMrochgehB9K
+AOPufgz4JuJJpB4asbaeWRpXuLNDbyl2YMzeZGVYEkDODz3rJt/BPjHwVcR/8Ix4hj1rSVSOM6R4
+lZ2eNVSQZjukBYEkx5Do/wB0nOTXpNFAHBR/ELxHArpefDjXftCgY+xXVlNExI5wzTqRgjuvce+J
+z438RmNifh3rRxkbPt2n5bp/08Y5yfyPtntqKAPCdEv/ABT4e+KWoW2j+ArHQ4fEFsLlF1K/igUt
+bELK2LZZhub7Qhy2CcHPSul8R6b8Q9avdBu30Tw0x0nUftqxR6vPmUeTLFt3Na/L/rc5wfu475G1
+4glVPi/4NVmVS+l6qFBxknfZng9emeB+PQV29AHE/wBveP8Ad/yJ+i7fX/hIZM9f+vT0/wA96X+2
+fiBKiqvhXQoJCRlpdelZFHOelrk8Y/M+nPa0UAeN69d+PNY+IHhmzfRvDcd7paz6ugGrzmN1MT2x
+Un7NuBzPnO0jC9iQK65Lr4jSuN+meF7deM7dRuZSemf+WC+/146UXzlfjVoqhiA3h+/JQE4bFzZ4
+JHfG449Mn1NdtQBxO/4jSoq+V4WtWY4aXzbmYIPULtTd9Ny/WuQWy8dfDmTS9Og1nw5cR69rVyNz
+6TcZimnW4unb/j55UMjAL1wRzxk+y1xfxOJiTwtcIuZodfs9hzjbvLROff5JHH4+uDQAw6D8QMD/
+AIrHRP8AwnpPT/r79az/ABJ4Q8Z3/hnVrafxjbSrPazRskWjqhZWXGATKcHG4ZOeoPbB9HqvqKNL
+p9yigszRMAB3ODQBj/Dy9bUvAHhm7chnuNMtZSVUgEtEp4B5HXvXQVyPwhkjl+FHgwxDCDRrNQCC
+MYhQYwScYxjqfqa66gAooooAKKKKAOO+Ms7W/wAJfGTogdjpF0oVsYOYmHfjv3rrbaEW1vFEpJEa
+hQT3wMVxvxsBb4TeKoxu/e2EkWV+8Nw25HuM5FdnLH5sTpuZNwI3IcEZ7j3oA434RI58J3U8h/eX
+GsapMwAIAzfT8DPPQD+nGK7WuB+BNn/Z3wu0q1DpIIJbuISKiqXC3Uo3NtABc4yzY+ZixPJrvqAK
++o2Mep6fc2c27ybiJon2HB2sCDg+uDXm3g271P4VajoXgjXbuLU9FuIhZaDrTbYp3aKIEWtwgAUy
+bEdlkTAYKQVUgF/UaxPGvg/T/Hvhi/0LU/PW0u02mW1lMM8TAgrJFIvKOpAKsOQQCORQBt0Vw3wo
+1DXWsNY0bxBcrqV9od8bEaquAbyMxpKjsoRFVwsqqwUYypPfFdzQAUUUUAcV4wz/AMLA8BYUEfab
+zJOOB9lfnn+nr6Zrta4bWonvvjH4XikeX7NaaVf3qIgAXzt9vCCx6/clkwOnftXc0AFFFFAHE3wJ
++NOiHIx/wj9/xzz/AKTZ/h+fPp3rtq4TVhLF8bfDTiNPJk0LUYzIzHORPZttAx+OT0x713dABXE/
+FdT/AGVoEgUuY/EGmHaATnN1Gufw3Z/Ct/xP4psPCGmLfaiZvKeaO3RLaB5pJJHYKiqiAsSSewrz
+vx/48g8Q6JYxWGh+JZLmDU7C9WOTw7eAMsV1HI4JaLAO1Gxnvj1FAHrdFefj4z6a2pnTl0HxK2oC
+EXAtjpEqu0ZJG4bgBjIwTnAJGcZFWj8RNTMTMvgDxOWGdqN9iG7pj/l54znv6H2yAJ8EGDfB/wAH
+ENuH9l24yTn+AV29cR8F53uPhvpjyIYmEtyvlltxQC5lAUnJ5AABwSOOOK7egAooooAKKKKAOK+M
+JY+BJowwCTX+nwSA4w0b3sCOvPqrMPXnjnFdrXE/FweZ4c0uE4McuvaSjqxA3L9ugOMn6D3PQda7
+agDy/wCEvinRtMstc0KXXrDzdN1i+iitp7mFbmOLz2yZEGMZcybTjldhPJNeipq9jKgdL23dTyGW
+VSD+tV9U8MaPrigajpNjqABLAXVskuCRgn5geccV5vq3wx8IXXxb0O0k8K6G1mNGvrhrc6bFtkkE
+1oisw2bSQpIBPIzxxmgD1lJFlQMjBlPIZTkGnVxn/CmPAYlMg8H6Kjk5JSyjX+Ld2Hrz9ajX4LeD
+YgFt9H+wxAgiCxupraIH2SN1UZ78c96AG+Blk0/x34/sGEbJLe22prKrfN+9t0iKFe2Ps2c9Du9j
+Xc1w6/BXwgrysNPug8vDuNTusnnI583/ADk+ppzfBzwuX3pDqcBwARBrV7EDg55CzAGgDtqK4pPg
+94bjCgHWjtIYbvEGoHkZ9Z+Rz078egpo+DfhoA/NrfPH/Iw6h6Y/570AZnjeXWLL4s+F5dDt7C8v
+Z9I1CEw6hO8CCMTWjMwdI3OQdoC4wcnkYGdVb/4ikHdonhcHsBrFyc8H/p19cD6Entg4SeEdM8Hf
+FvwkbEagFutO1GEvd39zdJvBtmVcyuwViqueMEhT6V6lQBxK3/xGLLnQ/C4HcjWbnjj/AK9fWg3v
+xHeMf8SjwtE/r/aty4H/AJLLXbUUAeN63L47/wCFo+GS1l4cN6NN1EW5F7OEKb7TzNw8vOfuYIyO
+DnGRWp408YeP/BPhXU9dudL8OXUFhbmd4YLucO5H8I3IB+JIra18hfi74Oy+CdM1RQpJ+Y77M+mO
+x7/nzjsbm2hvLeWC4iSeCVSkkUqhldSMEEHgg+lAHjnxN+IKz678P9Gj+wTvc6ja3t8IbkSmErc2
+8SqmOv7y4U7j2Tp82V9orzT4jeFtF8NaHp17pej6fpbprelebNaWyQt5f26AFSVAJBwBjvxXpdAH
+FzyMvxmsk6K+gXBGd3JW4h/DjcOvPIx1NdpXE36E/GrRG2kgeH78bsHAzc2fGfw/Su2oA4j4Ojb4
+LljOA8er6qrqCCVP2+4ODjoeRx19ea7euJ+Ezl9D1oli/wDxUGrDLHPS9mGPw6V21ABRRRQAUUUU
+AcT8VSrab4eR2Ko/iDTc7epIuEYD/vpRXbV578X5L4nwbBpy28l5Nr8Xlx3cjJEzJb3Eo3FVY4zG
+D07Cri3/AMRhjdonhf7uSV1i56+n/Hr0oA7auIv8f8Ls0P5Rn/hHtQ+bPT/SbPjH+envSrr3j8qM
++D9FDZGQPEMmMc5/5dPp+Z9OcfQ9V1nU/jFarrWiNo89voNwE8m9W4gl3XEGSpCqx+6B8yqeuAc0
+AenUUUUAFFFFABRRXB61qvibWPHt9oWg6np2k29hp1tdyzXentds8k0syhcCaPaAsOe+d3tQBP4x
+APxB8AfMBi6vCAR1/wBEk4H+e1drXEWXgzxFceJ9J1XXfEVhqMOmGZ4bez0k2zF3Qpku08nAVjwA
+DnvjIPb0AFFFFAHFeMAT8QPAWCBi5vMg55/0V/T+vH44rta4nxkFHxA8AFlJ/wBLu1Vh0DfZJD/I
+NXbUAcT8ZAV8AXM2AUtrywupCSBiOK8hkc88cKhP4V21cH8crb7T8LNc/fPbmEQ3IljVWIMc0cg4
+b5TyuMNkeoIqYeB/EgP/ACUXWjwRzY6f6Yz/AMe/4/X24oANbPl/GHwmVwGk0jU0bgZYCSzIGeuM
+nt7Z6Cu2ry/U/CfinQPF2ieIIL6+8bG3S6tZLS5Nnam3jlCNuQrGm75oUGCTwSa2h4q8Z3KgW/gZ
+IHyN39o6zFGm3nODEspJ6cEAc9eMUAHw0P8ApvjUZyB4gmwOOP3MJ/8Ar8+tdtXn3wluL26vPHL6
+jZxWF6dfPmQwzecgP2K1xh9iFuMdR7dAK9BoAKKKKACiiigDifHZMnjH4dwkjy21edypOMlbC6K4
+9wf6121cP8QoNSh17wlq1jo11rcGmXVxLcQWTwiVA9tJGrKJXUHl9vBz83pmnt8Rr+Nj5vgTxRHE
+rYaUR2jgDI+balwWI74Ck8dM8UAdrXFIoufjPKwIU2Xh9ARwd/n3LY75GPs57YO7/ZoX4p2zAsfD
+vihVXkk6LPwME9AMngHgAnOB1IFcvaePYIviVquttoPicafNpFnZpL/wj15uaVJbmRl2+VuwFkTn
+pk465oA9doriT8W9Ij2mXS/EsEbAHzJPDt8FUE45/dcc9utJ/wALj8NbVONbwcn/AJF7UO3/AGwo
+A7eiuKf4weG0DkjWvkO048P6gefb9xyPcUL8ZvB/meXNqzWUxOBBfWk9tKecAhJEViCeAcYPagDt
+a4fSlaD40eJFBYpPoenSEEcArPeLwfp1/Cnf8Lq8EbUP/CR2eH+6fm+bkjjj1B/I1ylp8WPCMfxS
+1fU2161Fg+i2UCzlSFMiz3LFd2Mk4dDg8fMMdTQB7DRXFv8AGbwVG+xvENorf3TuB67fT14+tNX4
+1eCH27fEdmd+duN3zY644oA7asLx7rc/hnwN4i1e18sXOn6dc3cRlUsm+OJmG4AgkZAyMisZvjV4
+ITdu8R2Y2Y3Z3fLnpniud+I/xW8L618PvFGn6dqjXd3daVdQRG2tZpEEjRMiKzhCqksQAGIyenQ0
+AbWleC9f1LV/Dusa34mi1BdNka7jtrfThbhneCSIgt5jcAS5+q+/HfVwOnfGXwamm2qprcdxIERP
+KtYZZpGbGMKqKSTwegPQ+hqwPjF4bKk41rAx/wAy/qGeQT/zw9v6d6AF+M4z8LvEWEEh+zfcP8Xz
+Diu1ryL4ofEHTPFPw68RaTpWn6/qN9e6fNHFBDoN8CSVwBlogByR1NdQfixpgIH9jeKOeePDl964
+/wCeX+Rz0oA7WiuI/wCFqQOiGPwz4pkZ/uJ/Y8qFiSQAd2AvT+IgDgnApT8RdTB/5J/4oPAPH2H0
+zj/j6/D6+3NACeBcDxv8RgDnGq23Gen/ABL7X/P4129cR4Eg1efxP4n1W+0e50Wy1D7K8FvdzRPI
+zpGyO5EbuFyoiGMg/L0rt6ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooA//2Q==</Data></Thumbnail></Binary><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</envirDesc><dataLang><languageCode Sync="TRUE" value="eng" country="USA"/><countryCode value="USA" Sync="TRUE"/></dataLang><idCitation><resTitle Sync="TRUE">County_Boundaries_Polys</resTitle><presForm><PresFormCd value="005"/></presForm></idCitation><dataExt><geoEle xmlns=""><GeoBndBox esriExtentType="search"><westBL Sync="TRUE">-111.055710</westBL><eastBL Sync="TRUE">-104.051895</eastBL><northBL Sync="TRUE">45.006767</northBL><southBL Sync="TRUE">40.994553</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">201689.05</westBL><eastBL Sync="TRUE">789894.87</eastBL><northBL Sync="TRUE">650276.95</northBL><southBL Sync="TRUE">200265.86</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-111.28434</westBL><eastBL Sync="TRUE">-103.822287</eastBL><northBL Sync="TRUE">45.05476</northBL><southBL Sync="TRUE">40.945722</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><spatRpType><SpatRepTypCd value="001"/></spatRpType><idPurp>This dataset was developed for the purpose of displaying 1:100,000-scale counties, also it has been used for clipping other data layers to specific counties.</idPurp><idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;P&gt;&lt;SPAN&gt;This dataset contains information on the county boundaries and names for Wyoming mapped at a 1:100,000 scale.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;</idAbs><idCredit>Wyoming Geographic Information Science Center</idCredit><searchKeys><keyword>Wyoming counties</keyword><keyword>county</keyword></searchKeys></dataIdInfo><mdLang><languageCode Sync="TRUE" value="eng"/><countryCode value="USA" Sync="TRUE"/></mdLang><mdChar><CharSetCd Sync="TRUE" value="004"/></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"/></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\WASHAKIE\workspace\New_Data\WyGISC\Wyoming_Counties.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">File Geodatabase Feature Class</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.199</transSize></distTranOps></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="4269">WyLam</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">8.1.1</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="County_Boundaries_Polys"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">23</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo></metadata>

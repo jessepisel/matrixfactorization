@@ -1,0 +1,139 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+	    <origin>Wyoming State Geological Survey</origin>
+        <title>Basins</title>
+        <geoform>vector digital data</geoform>
+		<ftname Sync="TRUE">Axes</ftname>
+		<onlink>http://www.wsgs.wyo.gov/data/gis/shapefiles/Basins.zip</onlink>
+		<onlink>http://www.wsgs.wyo.gov/</onlink>
+		<pubinfo>
+			<publish>Wyoming State Geological Survey</publish>
+			<pubplace>Laramie, WY  82073</pubplace>
+		</pubinfo>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Basins in Wyoming.</abstract>
+      <purpose>This data set was developed to show basins in Wyoming.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-110.691278</westbc>
+        <eastbc>-104.051891</eastbc>
+        <northbc>45.006123</northbc>
+        <southbc>40.995908</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+		<themekey>geoscientificInformation</themekey>
+        <themekey>Basins</themekey>
+        <themekey>physiographic basins</themekey>
+        <themekey>Wyoming</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>This data is to be used in-house for state agencies, but can be distributed to the public in a generalized hard copy format. Digital data is not to be shared outside agency, or served digitally without the consent of the WSGS.</useconst>
+    <datacred>Wyoming State Geological Survey, various companies..</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>9</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.9831528411952133e-009</latres>
+        <longres>8.9831528411952133e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Basins</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BASIN_NAME</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BASIN_NAME</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Personal GeoDatabase Feature Class</formname>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20150116</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+<Esri><resourceType>Downloadable Data</resourceType></Esri></metadata>
