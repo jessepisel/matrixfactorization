@@ -26,6 +26,7 @@ $ conda env create -f recsys.yml
 After the virtual environment is installed, activate it and start a jupyter notebook or jupyterlab session
 
 $ conda activate recsys
+
 $ jupyter lab
 
 or
