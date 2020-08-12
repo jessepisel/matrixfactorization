@@ -13,7 +13,9 @@ The directories contain the following:
 
 ## Data Sources
 [Teapot Dome from RMOTC](http://s3.amazonaws.com/open.source.geoscience/open_data/teapot/rmotc.tar)
+
 [Mannville Group Well Logs](https://github.com/JustinGOSSES/predictatops/blob/master/demo/mannville_demo_data.zip)
+
 [Mannville Group Picks](https://ags.aer.ca/publications/SPE_006.html)
 
 To run this repository, you need to either clone or download it to your local machine. You will also need to download the Mannville well logs if you want to use them to reproduce the data tables included in the repository.
