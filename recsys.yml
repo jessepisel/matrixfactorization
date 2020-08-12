@@ -1,0 +1,25 @@
+name: recsys
+channels:
+    - conda-forge
+dependencies:
+    #base packages
+    - python=3.8
+    - anaconda
+    - numpy
+    - matplotlib
+    - seaborn
+    - jupyter
+    - jupyterlab
+    - pillow
+    #spatial, statistics and data handling
+    - geopandas
+    - cartopy
+    - rasterio
+    - verde
+     #things that need pip
+    - pip
+    - pip:
+      - sklearn
+      - glob3
+      - descartes
+      - lasio
