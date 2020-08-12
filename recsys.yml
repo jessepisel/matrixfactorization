@@ -16,18 +16,10 @@ dependencies:
     - cartopy
     - rasterio
     - verde
-<<<<<<< HEAD
-=======
-    - lasio
->>>>>>> cbd16027b1936f7d4ec08f1a8b08dba01c9f8476
      #things that need pip
     - pip
     - pip:
       - sklearn
       - glob3
-<<<<<<< HEAD
       - descartes
       - lasio
-=======
-      - descartes
->>>>>>> cbd16027b1936f7d4ec08f1a8b08dba01c9f8476
