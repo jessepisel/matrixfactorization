@@ -5,11 +5,11 @@ This repository contains jupyter notebooks and data to create a recommender syst
 and analyzes the predictions for the Teapot Dome oil field in Wyoming USA, and Athabasca Oil Sands in Alberta, CA.
 
 The directories contain the following:
-	* Munging - Notebook and original Teapot Dome data that are preprocessed in `00_teapot_cleaning.ipynb`
-	* base_data - Shapefiles for reproducing the figures in the article
-	* 01_teapot_rec_sys - Notebook and munged Teapot Dome data with associated output
-	* 02_mannvilee_rec_sys - Notebook and data sources for the Mannville group data
-	* 03_figures - Notebook to create the figures in the article
+* Munging - Notebook and original Teapot Dome data that are preprocessed in `00_teapot_cleaning.ipynb`
+* base_data - Shapefiles for reproducing the figures in the article
+* 01_teapot_rec_sys - Notebook and munged Teapot Dome data with associated output
+* 02_mannvilee_rec_sys - Notebook and data sources for the Mannville group data
+* 03_figures - Notebook to create the figures in the article
 
 ## Data Sources
 [Teapot Dome from RMOTC](http://s3.amazonaws.com/open.source.geoscience/open_data/teapot/rmotc.tar)
