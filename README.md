@@ -1,5 +1,5 @@
 # A Recommender System for Predicting True Vertical Depth to Subsurface Formation Tops
-![Prediction Error Maps](https://github.com/jessepisel/matrixfactorization/blob/master/error_maps.png)
+![Prediction Error Maps](https://github.com/jessepisel/matrixfactorization/blob/master/error_maps.PNG)
 
 This repository contains jupyter notebooks and data to create a recommender system that predicts the true vertical depth (TVD) to subsurface formation tops. Specifically, it predicts the TVD 
 and analyzes the predictions for the Teapot Dome oil field in Wyoming USA, and Athabasca Oil Sands in Alberta, CA.
