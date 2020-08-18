@@ -1,4 +1,7 @@
 # A Recommender System for Predicting True Vertical Depth to Subsurface Formation Tops
+
+[![DOI](https://zenodo.org/badge/263936817.svg)](https://zenodo.org/badge/latestdoi/263936817)
+
 ![Prediction Error Maps](https://github.com/jessepisel/matrixfactorization/blob/master/error_maps.PNG)
 
 This repository contains jupyter notebooks and data to create a recommender system that predicts the true vertical depth (TVD) to subsurface formation tops. Specifically, it predicts the TVD 
