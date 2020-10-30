@@ -24,16 +24,22 @@ The directories contain the following:
 To run this repository, you need to either clone or download it to your local machine. You will also need to download the Mannville well logs if you want to use them to reproduce the data tables included in the repository.
 After cloning, you need to change directories to this directory. To ease in reproducibility we have included a Python virtual environment. Install the virtual environment from a terminal window or anaconda prompt with:
 
+```
 $ conda env create -f recsys.yml
+```
 
 After the virtual environment is installed, activate it and start a jupyter notebook or jupyterlab session
 
+```
 $ conda activate recsys
 
 $ jupyter lab
+```
 
 or
 
+```
 $ jupyter notebook
+```
 
 When the jupyter server has loaded, you can walk through the notebooks in order to reproduce the results from this study.
