@@ -25,7 +25,7 @@ To run this repository, you need to either clone or download it to your local ma
 After cloning, you need to change directories to this directory. To ease in reproducibility we have included a Python virtual environment. Install the virtual environment from a terminal window or anaconda prompt with:
 
 ```
-$ conda env create -f recsys.yml
+$ conda env create -f environment.yml
 ```
 
 After the virtual environment is installed, activate it and start a jupyter notebook or jupyterlab session
