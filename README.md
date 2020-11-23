@@ -1,4 +1,4 @@
-# A Recommender System for Predicting True Vertical Depth to Subsurface Formation Tops
+# A recommender system for automatic picking of subsurface formation tops
 
 [![DOI](https://zenodo.org/badge/263936817.svg)](https://zenodo.org/badge/latestdoi/263936817)
 
