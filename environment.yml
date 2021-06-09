@@ -5,6 +5,11 @@ dependencies:
     #base packages
     - python=3.8
     - anaconda
+    - numpy
+    - matplotlib
+    - jupyter
+    - jupyterlab
+    - pillow
     #spatial, statistics and data handling
     - geopandas
     - cartopy
