@@ -7,19 +7,16 @@ dependencies:
     - anaconda
     - numpy
     - matplotlib
-    - seaborn
     - jupyter
     - jupyterlab
     - pillow
     #spatial, statistics and data handling
     - geopandas
     - cartopy
-    - rasterio
     - verde
      #things that need pip
     - pip
     - pip:
       - sklearn
-      - glob3
-      - descartes
+      - glob2
       - lasio
