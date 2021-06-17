@@ -3,7 +3,7 @@ channels:
     - conda-forge
 dependencies:
     #base packages
-    - python=3.8
+    - python=3.7
     - anaconda
     - numpy
     - matplotlib
